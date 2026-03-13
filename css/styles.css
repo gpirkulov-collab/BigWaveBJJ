@@ -277,7 +277,7 @@ h3 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); font-weight: 600; }
   justify-content: center;
   text-align: center;
   padding: calc(var(--nav-height) + 40px) 20px 80px;
-  background: linear-gradient(135deg, var(--color-dark) 0%, #16213e 50%, var(--color-primary) 100%);
+  background: var(--color-dark);
   overflow: hidden;
 }
 .hero::before {
@@ -285,7 +285,18 @@ h3 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); font-weight: 600; }
   position: absolute;
   inset: 0;
   background: url('../assets/images/hero-bg.jpg') center/cover no-repeat;
-  opacity: 0.15;
+  opacity: 0.45;
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(26, 26, 46, 0.7) 0%,
+    rgba(26, 26, 46, 0.4) 50%,
+    rgba(26, 26, 46, 0.6) 100%
+  );
 }
 .hero__content { position: relative; z-index: 1; max-width: 700px; }
 .hero__logo {
@@ -293,20 +304,42 @@ h3 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); font-weight: 600; }
   height: 120px;
   margin: 0 auto 24px;
   border-radius: 50%;
-  box-shadow: 0 0 40px rgba(58, 175, 169, 0.3);
+  box-shadow: 0 0 50px rgba(58, 175, 169, 0.4);
+  border: 3px solid rgba(255, 255, 255, 0.2);
 }
 .hero__title {
   color: var(--color-white);
   margin-bottom: 16px;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.3);
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.5);
 }
 .hero__subtitle {
-  color: rgba(255, 255, 255, 0.85);
+  color: rgba(255, 255, 255, 0.9);
   font-size: clamp(1rem, 2.5vw, 1.3rem);
-  margin-bottom: 32px;
+  margin-bottom: 36px;
   font-weight: 400;
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
 }
 .hero__buttons { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.hero__buttons .btn--primary {
+  background: var(--color-accent);
+  font-size: 1.05rem;
+  padding: 16px 36px;
+}
+.hero__buttons .btn--primary:hover {
+  background: #2e9690;
+  box-shadow: 0 6px 24px rgba(58, 175, 169, 0.4);
+}
+.hero__buttons .btn--outline {
+  border-width: 2px;
+  font-size: 1.05rem;
+  padding: 16px 36px;
+  backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.08);
+}
+.hero__buttons .btn--outline:hover {
+  background: var(--color-white);
+  color: var(--color-dark);
+}
 
 /* Wave Decoration */
 .hero__wave {
@@ -315,6 +348,7 @@ h3 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); font-weight: 600; }
   left: 0;
   width: 100%;
   line-height: 0;
+  z-index: 1;
 }
 .hero__wave svg { width: 100%; height: auto; }
 

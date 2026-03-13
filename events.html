@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Big Wave BJJ events — upcoming tournaments, camps, seminars, and internal competitions in Budva, Montenegro.">
+  <meta name="author" content="Big Wave BJJ">
+  <meta property="og:title" content="Events — Big Wave BJJ">
+  <meta property="og:description" content="Upcoming tournaments, camps, and seminars at Big Wave BJJ in Budva, Montenegro.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <title>Events — Big Wave BJJ</title>
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== Navigation ========== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/images/logo.svg" alt="Big Wave BJJ">
+        <span>Big Wave BJJ</span>
+      </a>
+      <div class="nav__links">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="events.html" data-i18n="nav.events">Events</a>
+        <a href="coaches.html" data-i18n="nav.coaches">Coaches</a>
+        <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+        <div class="lang-switcher">
+          <button class="lang-switcher__current" aria-label="Change language">
+            <span>EN</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="lang-switcher__dropdown">
+            <button class="lang-switcher__option active" data-lang="en">English</button>
+            <button class="lang-switcher__option" data-lang="ru">Русский</button>
+            <button class="lang-switcher__option" data-lang="me">Crnogorski</button>
+          </div>
+        </div>
+      </div>
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav__mobile">
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="events.html" data-i18n="nav.events">Events</a>
+    <a href="coaches.html" data-i18n="nav.coaches">Coaches</a>
+    <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+    <div class="lang-switcher">
+      <button class="lang-switcher__current" aria-label="Change language">
+        <span>EN</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="lang-switcher__dropdown">
+        <button class="lang-switcher__option active" data-lang="en">English</button>
+        <button class="lang-switcher__option" data-lang="ru">Русский</button>
+        <button class="lang-switcher__option" data-lang="me">Crnogorski</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== Main Content ========== -->
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1 data-i18n="events.title">Events & Calendar</h1>
+        <p data-i18n="events.subtitle">Upcoming tournaments, camps, and seminars</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="events__filters">
+          <button class="filter-btn active" data-filter="all" data-i18n="events.filterAll">All</button>
+          <button class="filter-btn" data-filter="internal" data-i18n="events.filterInternal">Internal</button>
+          <button class="filter-btn" data-filter="external" data-i18n="events.filterExternal">Tournaments</button>
+          <button class="filter-btn" data-filter="camp" data-i18n="events.filterCamp">Camps</button>
+          <button class="filter-btn" data-filter="seminar" data-i18n="events.filterSeminar">Seminars</button>
+        </div>
+        <div class="events__grid">
+          <!-- Event cards rendered dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="assets/images/logo.svg" alt="Big Wave BJJ">
+          <p data-i18n="footer.description">Brazilian Jiu-Jitsu club in Budva, Montenegro. Affiliate of Kristian Cestaro Jiu-Jitsu Association.</p>
+          <div class="footer__socials">
+            <a href="https://instagram.com/bigwavebjj" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://facebook.com/BigWaveJiuJitsu" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://wa.me/38268796127" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 data-i18n="footer.navigation">Navigation</h4>
+          <div class="footer__links">
+            <a href="index.html" data-i18n="nav.home">Home</a>
+            <a href="events.html" data-i18n="nav.events">Events</a>
+            <a href="coaches.html" data-i18n="nav.coaches">Coaches</a>
+            <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+          </div>
+        </div>
+        <div>
+          <h4 data-i18n="footer.contact">Contact</h4>
+          <div class="footer__links">
+            <a href="tel:+38268796127">+382 68 796 127</a>
+            <a href="mailto:info@bigwavebjj.com">info@bigwavebjj.com</a>
+            <span>MMA Budva, Mediterranska 4,<br>Budva, Montenegro</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Big Wave BJJ. <span data-i18n="footer.rights">All rights reserved.</span></span>
+        <a href="https://wa.me/38268796127" target="_blank" rel="noopener noreferrer">+382 68 796 127</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== Scripts ========== -->
+  <script src="js/config.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

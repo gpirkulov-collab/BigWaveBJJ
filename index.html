@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Big Wave BJJ — Brazilian Jiu-Jitsu academy in Budva, Montenegro. Train with black belt coaches in a welcoming environment for all levels.">
+  <meta name="keywords" content="BJJ, Brazilian Jiu-Jitsu, Budva, Montenegro, martial arts, grappling, Big Wave BJJ, MMA Budva">
+
+  <meta property="og:title" content="Big Wave BJJ — Brazilian Jiu-Jitsu in Budva, Montenegro">
+  <meta property="og:description" content="Train with black belt coaches in Budva, Montenegro. Programs for adults, kids, and visitors. All levels welcome.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+
+  <title>Big Wave BJJ — Brazilian Jiu-Jitsu in Budva, Montenegro</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["SportsClub", "LocalBusiness"],
+    "name": "Big Wave BJJ",
+    "description": "Brazilian Jiu-Jitsu academy in Budva, Montenegro. Training for all levels with black belt coaches.",
+    "url": "https://bigwavebjj.com",
+    "telephone": "+38268796127",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Mediterranska 4",
+      "addressLocality": "Budva",
+      "addressCountry": "ME",
+      "postalCode": "85310"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 42.2891,
+      "longitude": 18.8403
+    },
+    "image": "assets/images/og-image.jpg",
+    "sport": "Brazilian Jiu-Jitsu",
+    "openingHours": "Mo-Sa 09:00-21:00"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <header>
+    <nav class="nav">
+      <div class="nav__inner">
+        <a href="index.html" class="nav__logo">
+          <img src="assets/images/logo.svg" alt="Big Wave BJJ">
+          <span>Big Wave BJJ</span>
+        </a>
+        <div class="nav__links">
+          <a href="index.html" data-i18n="nav.home">Home</a>
+          <a href="events.html" data-i18n="nav.events">Events</a>
+          <a href="coaches.html" data-i18n="nav.coaches">Coaches</a>
+          <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+          <div class="lang-switcher">
+            <button class="lang-switcher__current" aria-label="Change language">
+              <span>EN</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="lang-switcher__dropdown">
+              <button class="lang-switcher__option active" data-lang="en">English</button>
+              <button class="lang-switcher__option" data-lang="ru">Русский</button>
+              <button class="lang-switcher__option" data-lang="me">Crnogorski</button>
+            </div>
+          </div>
+        </div>
+        <button class="nav__hamburger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <div class="nav__mobile">
+      <a href="index.html" data-i18n="nav.home">Home</a>
+      <a href="events.html" data-i18n="nav.events">Events</a>
+      <a href="coaches.html" data-i18n="nav.coaches">Coaches</a>
+      <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+      <div class="lang-switcher">
+        <button class="lang-switcher__current" aria-label="Change language">
+          <span>EN</span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+        </button>
+        <div class="lang-switcher__dropdown">
+          <button class="lang-switcher__option active" data-lang="en">English</button>
+          <button class="lang-switcher__option" data-lang="ru">Русский</button>
+          <button class="lang-switcher__option" data-lang="me">Crnogorski</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ========== HERO ========== -->
+    <section class="hero">
+      <div class="hero__content">
+        <img src="assets/images/logo.svg" alt="Big Wave BJJ" class="hero__logo">
+        <h1 class="hero__title" data-i18n="hero.title">Big Wave BJJ</h1>
+        <p class="hero__subtitle" data-i18n="hero.description">Train with black belt coaches in Budva, Montenegro. Programs for adults, kids, and visitors of all levels.</p>
+        <div class="hero__buttons">
+          <a href="contacts.html" class="btn btn--primary" data-i18n="hero.cta">Start Training</a>
+          <a href="contacts.html#schedule" class="btn btn--outline" data-i18n="hero.schedule">View Schedule</a>
+        </div>
+      </div>
+      <div class="hero__wave">
+        <svg viewBox="0 0 1440 120" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0,64 C288,120 576,0 864,64 C1152,128 1296,32 1440,64 L1440,120 L0,120 Z" fill="#ffffff"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about__grid">
+          <div class="about__image fade-up">
+            <img src="assets/images/club-training.jpg" alt="Big Wave BJJ training session" loading="lazy">
+          </div>
+          <div class="about__text fade-up">
+            <h2 data-i18n="about.title">About the Academy</h2>
+            <p data-i18n="about.text1">Big Wave BJJ is a Brazilian Jiu-Jitsu academy based in Budva, Montenegro. We offer professional training in a welcoming and supportive environment, guided by experienced black belt coaches with over 15 years on the mats.</p>
+            <p data-i18n="about.text2">Whether you are a complete beginner or a seasoned competitor, our programs are designed to help you grow. We welcome locals, expats, and travelers from around the world to train with us.</p>
+            <div class="about__badge fade-up">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.56 5.82 22 7 14.14l-5-4.87 6.91-1.01L12 2z"/>
+              </svg>
+              <span data-i18n="about.badge">Official KCJJA Affiliate</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== COUNTERS ========== -->
+    <section class="counters">
+      <div class="container">
+        <div class="counters__grid">
+          <div class="counter fade-up">
+            <div class="counter__number" data-target="100+">0</div>
+            <div class="counter__label" data-i18n="counters.students">Students</div>
+          </div>
+          <div class="counter fade-up">
+            <div class="counter__number" data-target="500+">0</div>
+            <div class="counter__label" data-i18n="counters.trainings">Trainings</div>
+          </div>
+          <div class="counter fade-up">
+            <div class="counter__number" data-target="15+">0</div>
+            <div class="counter__label" data-i18n="counters.countries">Countries Represented</div>
+          </div>
+          <div class="counter fade-up">
+            <div class="counter__number" data-target="15+">0</div>
+            <div class="counter__label" data-i18n="counters.experience">Years of Experience</div>
+          </div>
+          <div class="counter fade-up">
+            <div class="counter__number" data-target="50+">0</div>
+            <div class="counter__label" data-i18n="counters.promotions">Belt Promotions</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== PROGRAMS ========== -->
+    <section class="section section--alt" id="programs">
+      <div class="container">
+        <div class="section__header fade-up">
+          <h2 data-i18n="programs.title">Our Programs</h2>
+          <p data-i18n="programs.subtitle">Training options for every level, age, and goal. Find the program that fits you.</p>
+        </div>
+        <div class="programs__grid">
+
+          <div class="program-card fade-up">
+            <div class="program-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3 data-i18n="programs.adults.title">BJJ Adults</h3>
+            <p data-i18n="programs.adults.desc">Fundamentals and advanced techniques for all levels. Gi and no-gi classes with a focus on technique, strategy, and live sparring.</p>
+          </div>
+
+          <div class="program-card fade-up">
+            <div class="program-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M8 14s1.5 2 4 2 4-2 4-2"/>
+                <line x1="9" y1="9" x2="9.01" y2="9"/>
+                <line x1="15" y1="9" x2="15.01" y2="9"/>
+              </svg>
+            </div>
+            <h3 data-i18n="programs.kids.title">BJJ Kids</h3>
+            <p data-i18n="programs.kids.desc">Fun and safe training for children from age 4. We build discipline, confidence, and coordination through age-appropriate drills and games.</p>
+          </div>
+
+          <div class="program-card fade-up">
+            <div class="program-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+                <rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/>
+              </svg>
+            </div>
+            <h3 data-i18n="programs.openmat.title">Open Mat</h3>
+            <p data-i18n="programs.openmat.desc">Free sparring sessions and drilling. A chance to work on your game, try new techniques, and roll with training partners at your own pace.</p>
+          </div>
+
+          <div class="program-card fade-up">
+            <div class="program-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+                <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z"/><line x1="4" y1="22" x2="4" y2="15"/>
+              </svg>
+            </div>
+            <h3 data-i18n="programs.camps.title">Camps & Seminars</h3>
+            <p data-i18n="programs.camps.desc">Intensive training camps with guest instructors from around the world. Combine world-class BJJ training with the beauty of the Montenegrin coast.</p>
+          </div>
+
+          <div class="program-card fade-up">
+            <div class="program-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="40" height="40">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+              </svg>
+            </div>
+            <h3 data-i18n="programs.corporate.title">Corporate Training</h3>
+            <p data-i18n="programs.corporate.desc">Team building through martial arts. Boost morale, develop leadership skills, and create bonds that go beyond the office.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== TESTIMONIALS ========== -->
+    <section class="section" id="testimonials">
+      <div class="container">
+        <div class="section__header fade-up">
+          <h2 data-i18n="testimonials.title">What Our Students Say</h2>
+          <p data-i18n="testimonials.subtitle">Hear from the people who train with us every day.</p>
+        </div>
+        <div class="testimonials__slider fade-up">
+          <div class="testimonials__track">
+
+            <div class="testimonial-card">
+              <div class="testimonial-card__avatar">
+                <img src="assets/images/avatar-placeholder.svg" alt="Student" loading="lazy">
+              </div>
+              <blockquote class="testimonial-card__quote">
+                <p data-i18n="testimonials.items.0.text">Big Wave BJJ changed my life. The coaches are incredibly knowledgeable and the community is like a second family. I came as a complete beginner and earned my blue belt here.</p>
+              </blockquote>
+              <div class="testimonial-card__author">
+                <span class="testimonial-card__name" data-i18n="testimonials.items.0.name">Alex M.</span>
+                <span class="testimonial-card__belt" data-i18n="testimonials.items.0.belt">Blue Belt</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-card__avatar">
+                <img src="assets/images/avatar-placeholder.svg" alt="Student" loading="lazy">
+              </div>
+              <blockquote class="testimonial-card__quote">
+                <p data-i18n="testimonials.items.1.text">I visited Budva on vacation and dropped in for a class. The atmosphere was so welcoming that I extended my trip by two weeks just to keep training. Absolutely world-class instruction.</p>
+              </blockquote>
+              <div class="testimonial-card__author">
+                <span class="testimonial-card__name" data-i18n="testimonials.items.1.name">Sarah K.</span>
+                <span class="testimonial-card__belt" data-i18n="testimonials.items.1.belt">Purple Belt</span>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-card__avatar">
+                <img src="assets/images/avatar-placeholder.svg" alt="Student" loading="lazy">
+              </div>
+              <blockquote class="testimonial-card__quote">
+                <p data-i18n="testimonials.items.2.text">My kids train here and it has been the best decision for our family. They have learned discipline, respect, and made great friends. The coaches truly care about every student.</p>
+              </blockquote>
+              <div class="testimonial-card__author">
+                <span class="testimonial-card__name" data-i18n="testimonials.items.2.name">Marco D.</span>
+                <span class="testimonial-card__belt" data-i18n="testimonials.items.2.belt">Parent</span>
+              </div>
+            </div>
+
+          </div>
+          <div class="testimonials__dots">
+            <button class="testimonials__dot active" aria-label="Slide 1"></button>
+            <button class="testimonials__dot" aria-label="Slide 2"></button>
+            <button class="testimonials__dot" aria-label="Slide 3"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CTA ========== -->
+    <section class="cta">
+      <div class="container">
+        <div class="cta__content fade-up">
+          <h2 data-i18n="cta.title">Ready to Start Your Journey?</h2>
+          <p data-i18n="cta.text">Join the Big Wave BJJ community today. Your first class is on us — come try a free session and see what Brazilian Jiu-Jitsu can do for you.</p>
+          <div class="cta__buttons">
+            <a href="https://wa.me/38268796127" class="btn btn--accent" target="_blank" rel="noopener noreferrer">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              <span data-i18n="cta.whatsapp">WhatsApp Us</span>
+            </a>
+            <a href="contacts.html" class="btn btn--outline" data-i18n="cta.contact">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="assets/images/logo.svg" alt="Big Wave BJJ">
+          <p data-i18n="footer.description">Brazilian Jiu-Jitsu academy in Budva, Montenegro. Professional training for all levels in a welcoming community.</p>
+          <div class="footer__socials">
+            <a href="https://instagram.com/bigwavebjj" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com/BigWaveJiuJitsu" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="22" height="22">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="https://wa.me/38268796127" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="22" height="22">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 data-i18n="footer.navigation">Navigation</h4>
+          <div class="footer__links">
+            <a href="index.html" data-i18n="nav.home">Home</a>
+            <a href="events.html" data-i18n="nav.events">Events</a>
+            <a href="coaches.html" data-i18n="nav.coaches">Coaches</a>
+            <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+          </div>
+        </div>
+        <div>
+          <h4 data-i18n="footer.contact">Contact</h4>
+          <div class="footer__links">
+            <a href="tel:+38268796127">+382 68 796127</a>
+            <a href="mailto:info@bigwavebjj.com">info@bigwavebjj.com</a>
+            <p>MMA Budva, Mediterranska 4, Budva</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Big Wave BJJ. <span data-i18n="footer.rights">All rights reserved.</span></span>
+        <a href="https://instagram.com/bigwavebjj" target="_blank" rel="noopener noreferrer">@bigwavebjj</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/config.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

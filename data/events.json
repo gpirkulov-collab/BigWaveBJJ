@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "type": "internal",
+    "date": "2026-04-05",
+    "time": "11:00",
+    "title": {
+      "en": "Spring Open Mat",
+      "ru": "Весенний открытый ковер",
+      "me": "Proljetnji otvoreni mat"
+    },
+    "location": {
+      "en": "Big Wave BJJ, Budva",
+      "ru": "Big Wave BJJ, Будва",
+      "me": "Big Wave BJJ, Budva"
+    },
+    "description": {
+      "en": "Kick off the season with a special open mat session. All levels welcome — bring your gi and your game!",
+      "ru": "Откройте сезон специальной сессией открытого ковра. Приглашаются все уровни — берите ги и настрой!",
+      "me": "Otvorite sezonu posebnom sesijom otvorenog mata. Dobrodošli su svi nivoi — ponesite gi i dobru energiju!"
+    },
+    "details": {
+      "en": "Open to members and visitors. Rolling rounds of 6 minutes with 2-minute rest. Beginners can pair up with coaches for guided sparring. Free for all Big Wave BJJ members, drop-in fee of 10 EUR for guests.",
+      "ru": "Открыто для членов клуба и гостей. Раунды по 6 минут с 2-минутным отдыхом. Новички могут работать с тренерами в формате управляемого спарринга. Бесплатно для членов Big Wave BJJ, разовое посещение — 10 EUR для гостей.",
+      "me": "Otvoreno za članove i posjetioce. Runde od 6 minuta sa 2 minuta odmora. Početnici mogu raditi sa trenerima u vođenom sparingu. Besplatno za članove Big Wave BJJ, jednokratna posjeta 10 EUR za goste."
+    }
+  },
+  {
+    "id": 2,
+    "type": "internal",
+    "date": "2026-04-25",
+    "time": "18:00",
+    "title": {
+      "en": "Belt Promotion Ceremony",
+      "ru": "Церемония присвоения поясов",
+      "me": "Ceremonija promocije pojaseva"
+    },
+    "location": {
+      "en": "Big Wave BJJ, Budva",
+      "ru": "Big Wave BJJ, Будва",
+      "me": "Big Wave BJJ, Budva"
+    },
+    "description": {
+      "en": "Celebrating the progress and dedication of our students. Join us for the spring belt promotion ceremony!",
+      "ru": "Празднуем прогресс и преданность наших учеников. Присоединяйтесь к весенней церемонии присвоения поясов!",
+      "me": "Slavimo napredak i posvećenost naših učenika. Pridružite nam se na proljetnjoj ceremoniji promocije pojaseva!"
+    },
+    "details": {
+      "en": "Students who have demonstrated consistent training, technical growth, and the right attitude will be promoted. Family and friends are welcome to attend. Light refreshments will be served after the ceremony.",
+      "ru": "Ученики, продемонстрировавшие регулярность тренировок, технический рост и правильное отношение, получат повышение. Семья и друзья приглашены. После церемонии — легкое угощение.",
+      "me": "Učenici koji su pokazali redovnost na treninzima, tehnički napredak i pravi stav biće promovisani. Porodica i prijatelji su dobrodošli. Posluženje nakon ceremonije."
+    }
+  },
+  {
+    "id": 3,
+    "type": "external",
+    "date": "2026-05-09",
+    "time": "09:00",
+    "title": {
+      "en": "Montenegro National BJJ Championship",
+      "ru": "Чемпионат Черногории по БДД",
+      "me": "Državno prvenstvo Crne Gore u BDŽ"
+    },
+    "location": {
+      "en": "Sports Center, Podgorica, Montenegro",
+      "ru": "Спортивный центр, Подгорица, Черногория",
+      "me": "Sportski centar, Podgorica, Crna Gora"
+    },
+    "description": {
+      "en": "The biggest national BJJ event of the year. Big Wave BJJ will be competing across all belt categories.",
+      "ru": "Крупнейшее национальное соревнование по БДД в году. Big Wave BJJ выступает во всех категориях поясов.",
+      "me": "Najveći nacionalni BDŽ događaj u godini. Big Wave BJJ se takmičit u svim kategorijama pojaseva."
+    },
+    "details": {
+      "en": "IBJJF rules. Gi and no-gi divisions. Registration deadline: April 25, 2026. Team registration through Big Wave BJJ — contact Coach Anatoly for details. Supporters and families are welcome to attend and cheer on our athletes.",
+      "ru": "Правила IBJJF. Дивизионы ги и ноу-ги. Регистрация до 25 апреля 2026. Командная регистрация через Big Wave BJJ — свяжитесь с тренером Анатолием для деталей. Болельщики и семьи приглашены поддержать наших спортсменов.",
+      "me": "IBJJF pravila. Gi i no-gi divizije. Rok za registraciju: 25. april 2026. Timska registracija preko Big Wave BJJ — kontaktirajte trenera Anatolija za detalje. Navijači i porodice su dobrodošli da bodre naše sportiste."
+    }
+  },
+  {
+    "id": 4,
+    "type": "seminar",
+    "date": "2026-05-23",
+    "time": "10:00",
+    "title": {
+      "en": "Guard Masterclass with Guest Black Belt",
+      "ru": "Мастер-класс по гарду с приглашенным черным поясом",
+      "me": "Majstorska klasa garda sa gostujućim crnim pojasom"
+    },
+    "location": {
+      "en": "Big Wave BJJ, Budva",
+      "ru": "Big Wave BJJ, Будва",
+      "me": "Big Wave BJJ, Budva"
+    },
+    "description": {
+      "en": "A deep dive into modern guard systems. Two sessions covering closed guard, de la riva, and berimbolo entries.",
+      "ru": "Глубокое погружение в современные системы гарда. Две сессии: закрытый гард, де ла рива и входы в беримболо.",
+      "me": "Duboko istraživanje modernih sistema garda. Dvije sesije koje pokrivaju zatvoreni gard, de la rivu i berimbolo ulaze."
+    },
+    "details": {
+      "en": "Two 2-hour sessions: 10:00–12:00 and 14:00–16:00 with lunch break. Open to blue belts and above. Limited to 30 participants — early registration recommended. Seminar fee: 40 EUR (30 EUR for Big Wave BJJ members).",
+      "ru": "Две сессии по 2 часа: 10:00–12:00 и 14:00–16:00 с перерывом на обед. Открыто для синих поясов и выше. Ограничено 30 участниками — рекомендуется ранняя регистрация. Стоимость: 40 EUR (30 EUR для членов Big Wave BJJ).",
+      "me": "Dvije sesije po 2 sata: 10:00–12:00 i 14:00–16:00 sa pauzom za ručak. Otvoreno za plave pojaseve i više. Ograničeno na 30 učesnika — preporučuje se rana registracija. Cijena seminara: 40 EUR (30 EUR za članove Big Wave BJJ)."
+    }
+  },
+  {
+    "id": 5,
+    "type": "external",
+    "date": "2026-06-13",
+    "time": "09:00",
+    "title": {
+      "en": "Adriatic Open BJJ Tournament",
+      "ru": "Открытый турнир Адриатики по БДД",
+      "me": "Jadranski open BDŽ turnir"
+    },
+    "location": {
+      "en": "Tivat Sports Hall, Tivat, Montenegro",
+      "ru": "Спортивный зал Тивата, Тиват, Черногория",
+      "me": "Sportska dvorana Tivat, Tivat, Crna Gora"
+    },
+    "description": {
+      "en": "Regional tournament bringing together teams from the Adriatic coast. Gi and no-gi divisions for all belts and ages.",
+      "ru": "Региональный турнир, объединяющий команды с побережья Адриатики. Дивизионы ги и ноу-ги для всех поясов и возрастов.",
+      "me": "Regionalni turnir koji okuplja timove sa jadranske obale. Gi i no-gi divizije za sve pojaseve i uzraste."
+    },
+    "details": {
+      "en": "IBJJF rules. Kids, juvenile, adult, and masters divisions. Registration through the event website — team code will be shared with registered Big Wave BJJ members. Travel from Budva organized by the club.",
+      "ru": "Правила IBJJF. Детские, юношеские, взрослые и мастерские дивизионы. Регистрация через сайт мероприятия — командный код будет отправлен зарегистрированным членам Big Wave BJJ. Трансфер из Будвы организован клубом.",
+      "me": "IBJJF pravila. Dječje, omladinske, odrasle i masters divizije. Registracija preko sajta događaja — timski kod biće podijeljen registrovanim članovima Big Wave BJJ. Prevoz iz Budve organizuje klub."
+    }
+  },
+  {
+    "id": 6,
+    "type": "camp",
+    "date": "2026-07-06",
+    "time": "08:00",
+    "title": {
+      "en": "Summer BJJ Camp — Week 1",
+      "ru": "Летний кэмп по БДД — Неделя 1",
+      "me": "Ljetnji BDŽ kamp — Nedjelja 1"
+    },
+    "location": {
+      "en": "Big Wave BJJ, Budva",
+      "ru": "Big Wave BJJ, Будва",
+      "me": "Big Wave BJJ, Budva"
+    },
+    "description": {
+      "en": "A week of intensive training on the Montenegrin coast. Two daily sessions, ocean recovery, and community dinners. Train hard, live well.",
+      "ru": "Неделя интенсивных тренировок на побережье Черногории. Две тренировки в день, восстановление в море и совместные ужины. Тренируйся жестко, живи красиво.",
+      "me": "Nedjelja intenzivnog treninga na crnogorskom primorju. Dva dnevna treninga, oporavak u moru i zajedničke večere. Treniraj jako, živi lijepo."
+    },
+    "details": {
+      "en": "Schedule: Morning session 08:00–10:00 (technique), afternoon session 17:00–19:00 (sparring). All levels welcome. Camp fee: 200 EUR per week (includes all training sessions). Accommodation recommendations available upon request. Maximum 25 participants.",
+      "ru": "Расписание: утренняя сессия 08:00–10:00 (техника), вечерняя сессия 17:00–19:00 (спарринги). Все уровни приветствуются. Стоимость: 200 EUR за неделю (включает все тренировки). Рекомендации по жилью предоставляются по запросу. Максимум 25 участников.",
+      "me": "Raspored: jutarnja sesija 08:00–10:00 (tehnika), popodnevna sesija 17:00–19:00 (sparinzi). Svi nivoi dobrodošli. Cijena kampa: 200 EUR po nedjelji (uključuje sve treninge). Preporuke za smještaj dostupne na upit. Maksimalno 25 učesnika."
+    }
+  },
+  {
+    "id": 7,
+    "type": "camp",
+    "date": "2026-07-13",
+    "time": "08:00",
+    "title": {
+      "en": "Summer BJJ Camp — Week 2",
+      "ru": "Летний кэмп по БДД — Неделя 2",
+      "me": "Ljetnji BDŽ kamp — Nedjelja 2"
+    },
+    "location": {
+      "en": "Big Wave BJJ, Budva",
+      "ru": "Big Wave BJJ, Будва",
+      "me": "Big Wave BJJ, Budva"
+    },
+    "description": {
+      "en": "Continuation of the summer camp with advanced focus. Week 2 features competition preparation, strategy workshops, and guest coaches.",
+      "ru": "Продолжение летнего кэмпа с продвинутым фокусом. Неделя 2: подготовка к соревнованиям, стратегические мастерские и приглашенные тренеры.",
+      "me": "Nastavak ljetnjeg kampa sa naprednim fokusom. Nedjelja 2 donosi pripremu za takmičenja, radionice strategije i gostujuće trenere."
+    },
+    "details": {
+      "en": "Same schedule as Week 1. Focus shifts to competition preparation — takedowns, passing, and submission chains. Sign up for both weeks and get a 50 EUR discount (350 EUR total). Limited spots remaining after Week 1 registration.",
+      "ru": "Расписание аналогично неделе 1. Фокус смещается на соревновательную подготовку — броски, проходы гарда и цепочки сабмишенов. Запишитесь на обе недели и получите скидку 50 EUR (350 EUR за обе). Места ограничены после регистрации на неделю 1.",
+      "me": "Isti raspored kao nedjelja 1. Fokus se pomjera na takmičarsku pripremu — bacanja, pasiranja i lance submisija. Prijavite se za obje nedjelje i ostvarite popust od 50 EUR (350 EUR ukupno). Ograničen broj mjesta nakon registracije za nedjelju 1."
+    }
+  },
+  {
+    "id": 8,
+    "type": "seminar",
+    "date": "2026-08-15",
+    "time": "11:00",
+    "title": {
+      "en": "No-Gi Seminar: Leg Locks & Modern Submissions",
+      "ru": "Семинар по ноу-ги: замки ног и современные сабмишены",
+      "me": "No-gi seminar: poluge nogu i moderne submisije"
+    },
+    "location": {
+      "en": "Big Wave BJJ, Budva",
+      "ru": "Big Wave BJJ, Будва",
+      "me": "Big Wave BJJ, Budva"
+    },
+    "description": {
+      "en": "Explore the modern leg lock game and submission-only strategies. Ideal for competitors and those looking to sharpen their no-gi game.",
+      "ru": "Изучите современную игру в замки ног и стратегии саб-онли. Идеально для соревнующихся и тех, кто хочет прокачать свою ноу-ги игру.",
+      "me": "Istražite modernu igru poluga nogu i submission-only strategije. Idealno za takmičare i one koji žele unaprijediti no-gi igru."
+    },
+    "details": {
+      "en": "Single session: 11:00–14:00 (with breaks). Covering: heel hooks, knee bars, ashi garami entries, and defensive frameworks. All belts welcome, but prior no-gi experience recommended. Fee: 35 EUR (25 EUR for members). Bring a rash guard and grappling shorts.",
+      "ru": "Одна сессия: 11:00–14:00 (с перерывами). Программа: хил-хуки, колено-бары, входы в аши-гарами и защитные системы. Все пояса, но рекомендуется опыт в ноу-ги. Стоимость: 35 EUR (25 EUR для членов). Возьмите рашгард и шорты для грэпплинга.",
+      "me": "Jedna sesija: 11:00–14:00 (sa pauzama). Program: hil-hukovi, koljenobari, ashi garami ulazi i odbrambeni okviri. Svi pojasevi dobrodošli, ali preporučuje se prethodno no-gi iskustvo. Cijena: 35 EUR (25 EUR za članove). Ponesite rašgard i šorc za grappling."
+    }
+  },
+  {
+    "id": 9,
+    "type": "internal",
+    "date": "2026-08-29",
+    "time": "10:00",
+    "title": {
+      "en": "Big Wave Internal Tournament",
+      "ru": "Внутренний турнир Big Wave",
+      "me": "Big Wave interni turnir"
+    },
+    "location": {
+      "en": "Big Wave BJJ, Budva",
+      "ru": "Big Wave BJJ, Будва",
+      "me": "Big Wave BJJ, Budva"
+    },
+    "description": {
+      "en": "A friendly in-house competition for all Big Wave BJJ members. Test your skills in a supportive environment before the fall tournament season.",
+      "ru": "Дружеское внутриклубное соревнование для всех членов Big Wave BJJ. Проверьте свои навыки в поддерживающей атмосфере перед осенним турнирным сезоном.",
+      "me": "Prijateljsko interno takmičenje za sve članove Big Wave BJJ. Testirajte svoje vještine u podržavajućem okruženju prije jesenje takmičarske sezone."
+    },
+    "details": {
+      "en": "Round-robin format in gi and no-gi. Divisions by belt, weight, and age. Medals and certificates for all participants. Free for members. Followed by a barbecue and awards ceremony. Friends and family welcome as spectators!",
+      "ru": "Круговой формат в ги и ноу-ги. Дивизионы по поясу, весу и возрасту. Медали и сертификаты для всех участников. Бесплатно для членов клуба. После турнира — барбекю и церемония награждения. Друзья и семьи приглашены как зрители!",
+      "me": "Kružni format u giju i no-giju. Divizije po pojasu, težini i uzrastu. Medalje i sertifikati za sve učesnike. Besplatno za članove. Nakon turnira — roštilj i ceremonija dodjele nagrada. Prijatelji i porodice dobrodošli kao gledaoci!"
+    }
+  },
+  {
+    "id": 10,
+    "type": "external",
+    "date": "2026-09-19",
+    "time": "09:00",
+    "title": {
+      "en": "Balkan BJJ Open",
+      "ru": "Открытый чемпионат Балкан по БДД",
+      "me": "Balkanski BDŽ Open"
+    },
+    "location": {
+      "en": "Belgrade Fair, Belgrade, Serbia",
+      "ru": "Белградская ярмарка, Белград, Сербия",
+      "me": "Beogradski sajam, Beograd, Srbija"
+    },
+    "description": {
+      "en": "The premier Balkan grappling event. Teams from across Southeast Europe compete for regional supremacy.",
+      "ru": "Главное грэпплинг-событие Балкан. Команды со всей Юго-Восточной Европы борются за региональное первенство.",
+      "me": "Najznačajniji balkanski grappling događaj. Timovi iz cijele jugoistočne Evrope se takmiče za regionalno prvenstvo."
+    },
+    "details": {
+      "en": "IBJJF rules. All belt levels, gi and no-gi. Big Wave BJJ will travel as a team — bus transportation organized from Budva (departure Friday evening, return Sunday). Registration through Coach Anatoly by September 1, 2026. Entry fee covered by the club for active competitors.",
+      "ru": "Правила IBJJF. Все уровни поясов, ги и ноу-ги. Big Wave BJJ едет командой — автобус из Будвы (отъезд в пятницу вечером, возвращение в воскресенье). Регистрация через тренера Анатолия до 1 сентября 2026. Стартовый взнос оплачивается клубом для активных участников.",
+      "me": "IBJJF pravila. Svi nivoi pojaseva, gi i no-gi. Big Wave BJJ putuje kao tim — autobuski prevoz organizovan iz Budve (polazak petak uveče, povratak nedjelja). Registracija kod trenera Anatolija do 1. septembra 2026. Kotizaciju pokriva klub za aktivne takmičare."
+    }
+  }
+]

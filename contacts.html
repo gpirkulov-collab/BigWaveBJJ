@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Big Wave BJJ — address, phone, email, training schedule, and location map in Budva, Montenegro.">
+  <meta name="author" content="Big Wave BJJ">
+  <meta property="og:title" content="Contacts — Big Wave BJJ">
+  <meta property="og:description" content="Get in touch with Big Wave BJJ. Find our address, training schedule, and send us a message.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <title>Contacts — Big Wave BJJ</title>
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========== Navigation ========== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="assets/images/logo.svg" alt="Big Wave BJJ">
+        <span>Big Wave BJJ</span>
+      </a>
+      <div class="nav__links">
+        <a href="index.html" data-i18n="nav.home">Home</a>
+        <a href="events.html" data-i18n="nav.events">Events</a>
+        <a href="coaches.html" data-i18n="nav.coaches">Coaches</a>
+        <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+        <div class="lang-switcher">
+          <button class="lang-switcher__current" aria-label="Change language">
+            <span>EN</span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="lang-switcher__dropdown">
+            <button class="lang-switcher__option active" data-lang="en">English</button>
+            <button class="lang-switcher__option" data-lang="ru">Русский</button>
+            <button class="lang-switcher__option" data-lang="me">Crnogorski</button>
+          </div>
+        </div>
+      </div>
+      <button class="nav__hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+  <div class="nav__mobile">
+    <a href="index.html" data-i18n="nav.home">Home</a>
+    <a href="events.html" data-i18n="nav.events">Events</a>
+    <a href="coaches.html" data-i18n="nav.coaches">Coaches</a>
+    <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+    <div class="lang-switcher">
+      <button class="lang-switcher__current" aria-label="Change language">
+        <span>EN</span>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="lang-switcher__dropdown">
+        <button class="lang-switcher__option active" data-lang="en">English</button>
+        <button class="lang-switcher__option" data-lang="ru">Русский</button>
+        <button class="lang-switcher__option" data-lang="me">Crnogorski</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== Main Content ========== -->
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <h1 data-i18n="contacts.title">Contact Us</h1>
+        <p data-i18n="contacts.subtitle">Get in touch — we'd love to hear from you</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="contacts__grid">
+          <!-- Left column: Contact info + schedule -->
+          <div>
+            <div class="contact-info__list">
+
+              <div class="contact-info__item fade-up">
+                <div class="contact-info__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div class="contact-info__text">
+                  <h4 data-i18n="contacts.address">Address</h4>
+                  <p>MMA Budva, Mediterranska 4, Budva, Montenegro</p>
+                </div>
+              </div>
+
+              <div class="contact-info__item fade-up">
+                <div class="contact-info__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div class="contact-info__text">
+                  <h4 data-i18n="contacts.phone">Phone</h4>
+                  <a href="tel:+38268796127">+382 68 796127</a>
+                </div>
+              </div>
+
+              <div class="contact-info__item fade-up">
+                <div class="contact-info__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                </div>
+                <div class="contact-info__text">
+                  <h4 data-i18n="contacts.email">Email</h4>
+                  <a href="mailto:info@bigwavebjj.com">info@bigwavebjj.com</a>
+                </div>
+              </div>
+
+              <div class="contact-info__item fade-up">
+                <div class="contact-info__icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                </div>
+                <div class="contact-info__text">
+                  <h4 data-i18n="contacts.social">Social Media</h4>
+                  <div style="display: flex; gap: 12px; margin-top: 4px;">
+                    <a href="https://instagram.com/bigwavebjj" target="_blank">Instagram</a>
+                    <a href="https://facebook.com/BigWaveJiuJitsu" target="_blank">Facebook</a>
+                    <a href="https://wa.me/38268796127" target="_blank">WhatsApp</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Training Schedule -->
+            <div class="schedule-block fade-up">
+              <h3 data-i18n="contacts.schedule">Training Schedule</h3>
+              <div class="schedule-item">
+                <span class="schedule-item__day" data-i18n="contacts.tuesday">Tuesday</span>
+                <span class="schedule-item__time">19:30</span>
+              </div>
+              <div class="schedule-item">
+                <span class="schedule-item__day" data-i18n="contacts.thursday">Thursday</span>
+                <span class="schedule-item__time">19:30</span>
+              </div>
+              <div class="schedule-item">
+                <span class="schedule-item__day" data-i18n="contacts.saturday">Saturday</span>
+                <span class="schedule-item__time">19:30</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right column: Contact form -->
+          <div class="contact-form fade-up">
+            <h3 data-i18n="contacts.formTitle">Send us a message</h3>
+            <form novalidate>
+              <div class="form-group">
+                <label for="name" data-i18n="contacts.formName">Your Name</label>
+                <input type="text" id="name" name="name" required data-i18n-placeholder="contacts.formName">
+                <span class="form-error" data-i18n="contacts.formErrorName">Please enter your name</span>
+              </div>
+              <div class="form-group">
+                <label for="email" data-i18n="contacts.formEmail">Email Address</label>
+                <input type="email" id="email" name="email" required data-i18n-placeholder="contacts.formEmail">
+                <span class="form-error" data-i18n="contacts.formErrorEmail">Please enter a valid email</span>
+              </div>
+              <div class="form-group">
+                <label for="phone" data-i18n="contacts.formPhone">Phone (optional)</label>
+                <input type="tel" id="phone" name="phone" data-i18n-placeholder="contacts.formPhone">
+              </div>
+              <div class="form-group">
+                <label for="message" data-i18n="contacts.formMessage">Your Message</label>
+                <textarea id="message" name="message" required data-i18n-placeholder="contacts.formMessage"></textarea>
+                <span class="form-error" data-i18n="contacts.formErrorMessage">Please enter your message</span>
+              </div>
+              <button type="submit" class="btn btn--primary" style="width: 100%;" data-i18n="contacts.formSend">Send Message</button>
+            </form>
+            <div class="form-success" data-i18n="contacts.formSuccess">Message sent successfully!</div>
+          </div>
+        </div>
+
+        <!-- Map -->
+        <div class="contacts__map fade-up">
+          <div id="map" style="height: 400px;"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ========== Footer ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <img src="assets/images/logo.svg" alt="Big Wave BJJ">
+          <p data-i18n="footer.description">Brazilian Jiu-Jitsu club in Budva, Montenegro. Affiliate of Kristian Cestaro Jiu-Jitsu Association.</p>
+          <div class="footer__socials">
+            <a href="https://instagram.com/bigwavebjj" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://facebook.com/BigWaveJiuJitsu" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="https://wa.me/38268796127" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div>
+          <h4 data-i18n="footer.navigation">Navigation</h4>
+          <div class="footer__links">
+            <a href="index.html" data-i18n="nav.home">Home</a>
+            <a href="events.html" data-i18n="nav.events">Events</a>
+            <a href="coaches.html" data-i18n="nav.coaches">Coaches</a>
+            <a href="contacts.html" data-i18n="nav.contacts">Contacts</a>
+          </div>
+        </div>
+        <div>
+          <h4 data-i18n="footer.contact">Contact</h4>
+          <div class="footer__links">
+            <a href="tel:+38268796127">+382 68 796 127</a>
+            <a href="mailto:info@bigwavebjj.com">info@bigwavebjj.com</a>
+            <span>MMA Budva, Mediterranska 4,<br>Budva, Montenegro</span>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>&copy; 2026 Big Wave BJJ. <span data-i18n="footer.rights">All rights reserved.</span></span>
+        <a href="https://wa.me/38268796127" target="_blank" rel="noopener noreferrer">+382 68 796 127</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== Scripts ========== -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="js/config.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

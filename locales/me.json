@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "Big Wave BJJ — Brazilski džiu-džitsu u Budvi, Crna Gora",
+    "description": "Big Wave BJJ je klub brazilskog džiu-džitsua u Budvi, Crna Gora. Treninzi za odrasle i djecu, kampovi, seminari i otvoreni mat. Afilacija Kristian Cestaro Jiu-Jitsu Association."
+  },
+  "nav": {
+    "home": "Početna",
+    "events": "Događaji",
+    "coaches": "Treneri",
+    "contacts": "Kontakt"
+  },
+  "hero": {
+    "title": "Big Wave BJJ",
+    "subtitle": "Brazilski džiu-džitsu u Budvi",
+    "description": "Trenirajte sa trenerima crnog pojasa u srcu Crne Gore",
+    "cta": "Počni trenirati",
+    "schedule": "Raspored treninga"
+  },
+  "about": {
+    "title": "O klubu",
+    "subtitle": "Đe se strast susreće sa strunjačom",
+    "text1": "Big Wave BJJ je klub brazilskog džiu-džitsua smješten u Budvi, Crna Gora. Mi smo afilacija Kristian Cestaro Jiu-Jitsu Association (KCJJA) — međunarodne asocijacije džiu-džitsua poznate po proizvodnji boraca svjetske klase i održavanju najviših standarda podučavanja.",
+    "text2": "Klub nudi časove za sve nivoe — od potpunih početnika do iskusnih sportista. Takođe nudimo časove za djecu od 4 godine, kampove, školske programe i korporativne treninge. Bilo da želite da se takmičite, dovedete se u formu ili naučite samoodbranu — Big Wave BJJ je pravo mjesto za vas.",
+    "badge": "KCJJA afilacija"
+  },
+  "counters": {
+    "students": "Učenika",
+    "trainings": "Treninga",
+    "countries": "Država",
+    "experience": "Godina iskustva",
+    "promotions": "Promocija pojaseva"
+  },
+  "programs": {
+    "title": "Naši programi",
+    "subtitle": "Časovi za svaki nivo i uzrast",
+    "adults": {
+      "title": "BDŽ Odrasli",
+      "desc": "Osnovna i napredna tehnika za sve nivoe. Treninzi u giju i no-giju sa fokusom na tehniku, strategiju i sparinge."
+    },
+    "kids": {
+      "title": "BDŽ Djeca",
+      "desc": "Zabavni i bezbjedni treninzi za djecu od 4 godine. Razvijamo disciplinu, samopouzdanje i koordinaciju kroz vježbe i igre prilagođene uzrastu."
+    },
+    "openmat": {
+      "title": "Otvoreni mat",
+      "desc": "Slobodni sparinzi i rad na tehnici. Prilika da radite na svojoj igri, isprobate nove tehnike i rolete sa partnerima sopstvenim tempom."
+    },
+    "camps": {
+      "title": "Kampovi i seminari",
+      "desc": "Intenzivni trening kampovi sa gostujućim instruktorima iz cijeloga svijeta. Kombinujte trening svjetske klase sa ljepotom crnogorskog primorja."
+    },
+    "corporate": {
+      "title": "Korporativni treninzi",
+      "desc": "Timbilding kroz borilačke vještine. Podignite timski duh, razvijte liderske vještine i stvorite veze koje prevazilaze kancelariju."
+    }
+  },
+  "testimonials": {
+    "title": "Šta kažu naši učenici",
+    "subtitle": "Stvarne priče iz naše zajednice",
+    "items": [
+      {
+        "name": "Marko S.",
+        "belt": "Plavi pojas",
+        "text": "Najbolje BDŽ iskustvo u Crnoj Gori. Odlični treneri i prijateljska atmosfera! Došao sam na nedjelju dana, a ostao mjesec."
+      },
+      {
+        "name": "Ana P.",
+        "belt": "Bijeli pojas",
+        "text": "Počela sam da treniram prije pola godine bez ikakvog iskustva. Sada ne mogu zamisliti život bez BDŽ-a! Treneri su nevjerovatno strpljivi i uvijek pružaju podršku."
+      },
+      {
+        "name": "Dmitrij K.",
+        "belt": "Ljubičasti pojas",
+        "text": "Treniram ovdje svaki put kad dođem u Budvu. Podučavanje svjetske klase na prelepoj lokaciji. Anatolijeva posvećenost detaljima je izvanredna."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Započnite svoj put u džiu-džitsuu",
+    "text": "Prvi trening je besplatan. Dođite i probajte!",
+    "whatsapp": "Poruka na WhatsApp",
+    "contact": "Kontaktirajte nas"
+  },
+  "events": {
+    "title": "Događaji i kalendar",
+    "subtitle": "Predstojeći turniri, kampovi i seminari",
+    "filterAll": "Svi",
+    "filterInternal": "Interni",
+    "filterExternal": "Turniri",
+    "filterCamp": "Kampovi",
+    "filterSeminar": "Seminari",
+    "details": "Detalji",
+    "collapse": "Zatvori",
+    "empty": "Nema događaja u ovoj kategoriji",
+    "location": "Lokacija",
+    "date": "Datum",
+    "time": "Vrijeme"
+  },
+  "coaches": {
+    "title": "Naši treneri",
+    "subtitle": "Učite od iskusnih i posvećenih instruktora",
+    "coach1": {
+      "name": "Anatolij Abramov",
+      "belt": "Crni pojas",
+      "role": "Glavni trener / Osnivač",
+      "bio": "Osnivač Big Wave BJJ. Crni pojas pod mentorstvom Kristijana Čestara. Preko 15 godina iskustva u brazilskom džiu-džitsuu. Specijalista za gi i no-gi grappling sa dubokim razumijevanjem modernih takmičarskih strategija i klasičnih tehnika samoodbrane."
+    },
+    "coach2": {
+      "name": "Trener 2",
+      "belt": "Crni pojas",
+      "role": "Trener",
+      "bio": "Profesionalni trener sa opsežnim takmičarskim i pedagoškim iskustvom. Poznat po metodičnom pristupu nastavi i razvoju boraca svih nivoa."
+    },
+    "coach3": {
+      "name": "Trener 3",
+      "belt": "Ljubičasti pojas",
+      "role": "Asistent trenera",
+      "bio": "Aktivni sportista i posvećeni instruktor fokusiran na fundamentalnu tehniku. Višestruki medalista na nacionalnim i međunarodnim turnirima, koji donosi stvarno takmičarsko iskustvo na svaki čas."
+    },
+    "coach4": {
+      "name": "Trener 4",
+      "belt": "Plavi pojas",
+      "role": "Dječji trener",
+      "bio": "Specijalizovan za dječje programe sa fokusom na zabavu i bezbjednost. Kreira zanimljive planove časova koji razvijaju koordinaciju, disciplinu i ljubav prema sportu."
+    },
+    "coach5": {
+      "name": "Trener 5",
+      "belt": "Plavi pojas",
+      "role": "Asistent trenera",
+      "bio": "Strastven prema no-giju i tehnikama samoodbrane. Unosi energiju i entuzijazam u svaki trening, pomažući učenicima da izgrade samopouzdanje na strunjači i van nje."
+    }
+  },
+  "contacts": {
+    "title": "Kontaktirajte nas",
+    "subtitle": "Javite nam se — rado ćemo odgovoriti na vaša pitanja",
+    "address": "Adresa",
+    "phone": "Telefon",
+    "email": "Email",
+    "social": "Društvene mreže",
+    "schedule": "Raspored treninga",
+    "tuesday": "Utorak",
+    "thursday": "Četvrtak",
+    "saturday": "Subota",
+    "formTitle": "Pošaljite nam poruku",
+    "formName": "Vaše ime",
+    "formEmail": "Email adresa",
+    "formPhone": "Telefon (opciono)",
+    "formMessage": "Vaša poruka",
+    "formSend": "Pošalji poruku",
+    "formSuccess": "Poruka je uspješno poslata! Javićemo vam se uskoro.",
+    "formErrorName": "Molimo unesite vaše ime",
+    "formErrorEmail": "Molimo unesite ispravnu email adresu",
+    "formErrorMessage": "Molimo unesite vašu poruku"
+  },
+  "footer": {
+    "description": "Klub brazilskog džiu-džitsua u Budvi, Crna Gora. Afilacija Kristian Cestaro Jiu-Jitsu Association.",
+    "navigation": "Navigacija",
+    "contact": "Kontakt",
+    "rights": "Sva prava zadržana."
+  }
+}

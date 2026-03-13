@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "title": "Big Wave BJJ — Brazilian Jiu-Jitsu in Budva, Montenegro",
+    "description": "Big Wave BJJ is a Brazilian Jiu-Jitsu club in Budva, Montenegro. Classes for adults and kids, camps, seminars, and open mats. Affiliate of Kristian Cestaro Jiu-Jitsu Association."
+  },
+  "nav": {
+    "home": "Home",
+    "events": "Events",
+    "coaches": "Coaches",
+    "contacts": "Contacts"
+  },
+  "hero": {
+    "title": "Big Wave BJJ",
+    "subtitle": "Brazilian Jiu-Jitsu in Budva",
+    "description": "Train with black belt coaches in the heart of Montenegro",
+    "cta": "Start Training",
+    "schedule": "View Schedule"
+  },
+  "about": {
+    "title": "About the Club",
+    "subtitle": "Where passion meets the mat",
+    "text1": "Big Wave BJJ is a Brazilian Jiu-Jitsu club located in Budva, Montenegro. We are an affiliate of Kristian Cestaro Jiu-Jitsu Association (KCJJA) — an international jiu-jitsu association known for producing world-class grapplers and maintaining the highest standards of instruction.",
+    "text2": "The club offers classes for all levels — from complete beginners to experienced athletes. We also offer kids classes starting from age 4, camps, school programs, and corporate training. Whether you're looking to compete, get in shape, or learn self-defense, Big Wave BJJ is the place for you.",
+    "badge": "KCJJA Affiliate"
+  },
+  "counters": {
+    "students": "Students",
+    "trainings": "Trainings",
+    "countries": "Countries",
+    "experience": "Years of Experience",
+    "promotions": "Belt Promotions"
+  },
+  "programs": {
+    "title": "Our Programs",
+    "subtitle": "Classes for every level and age",
+    "adults": {
+      "title": "BJJ Adults",
+      "desc": "Fundamentals and advanced techniques for all levels. Gi and no-gi classes with a focus on technique, strategy, and live sparring."
+    },
+    "kids": {
+      "title": "BJJ Kids",
+      "desc": "Fun and safe training for children from age 4. We build discipline, confidence, and coordination through age-appropriate drills and games."
+    },
+    "openmat": {
+      "title": "Open Mat",
+      "desc": "Free sparring sessions and drilling. A chance to work on your game, try new techniques, and roll with training partners at your own pace."
+    },
+    "camps": {
+      "title": "Camps & Seminars",
+      "desc": "Intensive training camps with guest instructors from around the world. Combine world-class BJJ training with the beauty of the Montenegrin coast."
+    },
+    "corporate": {
+      "title": "Corporate Training",
+      "desc": "Team building through martial arts. Boost morale, develop leadership skills, and create bonds that go beyond the office."
+    }
+  },
+  "testimonials": {
+    "title": "What Our Students Say",
+    "subtitle": "Real stories from our community",
+    "items": [
+      {
+        "name": "Marco S.",
+        "belt": "Blue Belt",
+        "text": "Best BJJ experience in Montenegro. Great coaches and friendly atmosphere! I came for a week and stayed for a month."
+      },
+      {
+        "name": "Ana P.",
+        "belt": "White Belt",
+        "text": "Started training 6 months ago with zero experience. Now I can't imagine my life without BJJ! The coaches are incredibly patient and supportive."
+      },
+      {
+        "name": "Dmitry K.",
+        "belt": "Purple Belt",
+        "text": "I train here every time I visit Budva. World-class instruction in a beautiful location. Anatoly's attention to detail is outstanding."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Start Your Jiu-Jitsu Journey",
+    "text": "First class is free. Come try it!",
+    "whatsapp": "Message on WhatsApp",
+    "contact": "Contact Us"
+  },
+  "events": {
+    "title": "Events & Calendar",
+    "subtitle": "Upcoming tournaments, camps, and seminars",
+    "filterAll": "All",
+    "filterInternal": "Internal",
+    "filterExternal": "Tournaments",
+    "filterCamp": "Camps",
+    "filterSeminar": "Seminars",
+    "details": "Details",
+    "collapse": "Collapse",
+    "empty": "No events in this category",
+    "location": "Location",
+    "date": "Date",
+    "time": "Time"
+  },
+  "coaches": {
+    "title": "Our Coaches",
+    "subtitle": "Learn from experienced and dedicated instructors",
+    "coach1": {
+      "name": "Anatoly Abramov",
+      "belt": "Black Belt",
+      "role": "Head Coach / Founder",
+      "bio": "Founder of Big Wave BJJ. Black belt under Kristian Cestaro. Over 15 years of experience in Brazilian Jiu-Jitsu. Specialist in gi and no-gi grappling with a deep understanding of modern competition strategies and classical self-defense techniques."
+    },
+    "coach2": {
+      "name": "Coach 2",
+      "belt": "Black Belt",
+      "role": "Coach",
+      "bio": "Professional coach with extensive competition and teaching experience. Known for a methodical approach to instruction and developing fighters at all levels."
+    },
+    "coach3": {
+      "name": "Coach 3",
+      "belt": "Purple Belt",
+      "role": "Assistant Coach",
+      "bio": "Competitive athlete and dedicated instructor focusing on fundamentals. Multiple medalist at national and international tournaments, bringing real competition experience to every class."
+    },
+    "coach4": {
+      "name": "Coach 4",
+      "belt": "Blue Belt",
+      "role": "Kids Coach",
+      "bio": "Specializing in children's programs with a focus on fun and safety. Creates engaging lesson plans that develop coordination, discipline, and a love for the sport."
+    },
+    "coach5": {
+      "name": "Coach 5",
+      "belt": "Blue Belt",
+      "role": "Assistant Coach",
+      "bio": "Passionate about no-gi and self-defense techniques. Brings energy and enthusiasm to every session, helping students build confidence on and off the mat."
+    }
+  },
+  "contacts": {
+    "title": "Contact Us",
+    "subtitle": "Get in touch — we'd love to hear from you",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "social": "Social Media",
+    "schedule": "Training Schedule",
+    "tuesday": "Tuesday",
+    "thursday": "Thursday",
+    "saturday": "Saturday",
+    "formTitle": "Send us a message",
+    "formName": "Your Name",
+    "formEmail": "Email Address",
+    "formPhone": "Phone (optional)",
+    "formMessage": "Your Message",
+    "formSend": "Send Message",
+    "formSuccess": "Message sent successfully! We'll get back to you soon.",
+    "formErrorName": "Please enter your name",
+    "formErrorEmail": "Please enter a valid email",
+    "formErrorMessage": "Please enter your message"
+  },
+  "footer": {
+    "description": "Brazilian Jiu-Jitsu club in Budva, Montenegro. Affiliate of Kristian Cestaro Jiu-Jitsu Association.",
+    "navigation": "Navigation",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}

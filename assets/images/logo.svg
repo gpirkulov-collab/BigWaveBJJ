@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2AABE2"/>
+      <stop offset="100%" style="stop-color:#1B8BC7"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#5ECEE8"/>
+      <stop offset="100%" style="stop-color:#2AABE2"/>
+    </linearGradient>
+    <linearGradient id="wave3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7EDFF0"/>
+      <stop offset="100%" style="stop-color:#4DC8E0"/>
+    </linearGradient>
+    <clipPath id="circle">
+      <circle cx="100" cy="100" r="90"/>
+    </clipPath>
+  </defs>
+  <!-- White background circle -->
+  <circle cx="100" cy="100" r="92" fill="#f0f0f0"/>
+  <circle cx="100" cy="100" r="90" fill="white"/>
+  <g clip-path="url(#circle)">
+    <!-- Main curling wave -->
+    <path d="M 40 95 C 40 55, 75 30, 105 30 C 135 30, 150 50, 150 70 C 150 90, 130 100, 115 95 C 100 90, 95 75, 105 60 C 110 52, 125 48, 130 58" fill="url(#wave1)" stroke="none"/>
+    <!-- Middle flowing wave -->
+    <path d="M 15 125 C 45 105, 75 115, 105 108 C 135 101, 155 110, 190 100 L 190 130 C 155 125, 135 135, 105 140 C 75 145, 45 132, 15 145 Z" fill="url(#wave2)" stroke="none"/>
+    <!-- Bottom flowing wave -->
+    <path d="M 15 150 C 45 135, 80 145, 110 140 C 140 135, 165 142, 190 132 L 190 158 C 165 155, 140 165, 110 168 C 80 171, 45 160, 15 172 Z" fill="url(#wave3)" stroke="none"/>
+  </g>
+</svg>

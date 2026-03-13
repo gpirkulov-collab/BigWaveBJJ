@@ -73,7 +73,7 @@
       var dir = pagePath.substring(0, pagePath.lastIndexOf('/') + 1);
       return dir + 'locales/' + lang + '.json';
     }
-    return '/locales/' + lang + '.json';
+    return 'locales/' + lang + '.json';
   }
 
   function applyTranslations(data) {

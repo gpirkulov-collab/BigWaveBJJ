@@ -254,7 +254,7 @@
       var dir = pagePath.substring(0, pagePath.lastIndexOf('/') + 1);
       return dir + file;
     }
-    return '/' + file;
+    return file;
   }
 
   function createEventCard(ev, lang) {

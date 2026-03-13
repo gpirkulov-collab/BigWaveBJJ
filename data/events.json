@@ -58,7 +58,7 @@
     "time": "09:00",
     "title": {
       "en": "Montenegro National BJJ Championship",
-      "ru": "Чемпионат Черногории по БДД",
+      "ru": "Чемпионат Черногории по БЖЖ",
       "me": "Državno prvenstvo Crne Gore u BDŽ"
     },
     "location": {
@@ -68,7 +68,7 @@
     },
     "description": {
       "en": "The biggest national BJJ event of the year. Big Wave BJJ will be competing across all belt categories.",
-      "ru": "Крупнейшее национальное соревнование по БДД в году. Big Wave BJJ выступает во всех категориях поясов.",
+      "ru": "Крупнейшее национальное соревнование по БЖЖ в году. Big Wave BJJ выступает во всех категориях поясов.",
       "me": "Najveći nacionalni BDŽ događaj u godini. Big Wave BJJ se takmičit u svim kategorijama pojaseva."
     },
     "details": {
@@ -110,7 +110,7 @@
     "time": "09:00",
     "title": {
       "en": "Adriatic Open BJJ Tournament",
-      "ru": "Открытый турнир Адриатики по БДД",
+      "ru": "Открытый турнир Адриатики по БЖЖ",
       "me": "Jadranski open BDŽ turnir"
     },
     "location": {
@@ -136,7 +136,7 @@
     "time": "08:00",
     "title": {
       "en": "Summer BJJ Camp — Week 1",
-      "ru": "Летний кэмп по БДД — Неделя 1",
+      "ru": "Летний кэмп по БЖЖ — Неделя 1",
       "me": "Ljetnji BDŽ kamp — Nedjelja 1"
     },
     "location": {
@@ -162,7 +162,7 @@
     "time": "08:00",
     "title": {
       "en": "Summer BJJ Camp — Week 2",
-      "ru": "Летний кэмп по БДД — Неделя 2",
+      "ru": "Летний кэмп по БЖЖ — Неделя 2",
       "me": "Ljetnji BDŽ kamp — Nedjelja 2"
     },
     "location": {
@@ -240,7 +240,7 @@
     "time": "09:00",
     "title": {
       "en": "Balkan BJJ Open",
-      "ru": "Открытый чемпионат Балкан по БДД",
+      "ru": "Открытый чемпионат Балкан по БЖЖ",
       "me": "Balkanski BDŽ Open"
     },
     "location": {
